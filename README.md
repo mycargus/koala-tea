@@ -4,16 +4,16 @@
 
 A practical science- and code-driven guide to building Quality software
 
-# The Problem
+## The Problem
 
 Software development is hard. Perhaps like us you've had thoughts like these:
 
 > "I've read about dependency injection but I don't know how to implement it in
 > this legacy project codebase."
-
+>
 > "What does SOLID code actually look like? Is it a unicorn?"
-
-> "What are the _proven_ best practices for writing testable code? I'm tired of
+>
+> "What are the *proven* best practices for writing testable code? I'm tired of
 > fad approaches."
 
 Worst of all, if you write poor code then you will inevitably regret it.
@@ -29,7 +29,7 @@ experimentation ought to be our authoritative guidepost, not experience.
 
 There must be a better way to do software.
 
-# Mission
+## Mission
 
 This project has one simple goal in mind:
 
@@ -37,7 +37,7 @@ This project has one simple goal in mind:
 quality software by teaching one proven principle at a time in a digestable,
 modular format.**
 
-# Vision
+## Vision
 
 We strive to explain the Why, How, When, and Where to practice the principles
 taught in this project. Furthermore, we hope to make the content more useful and
@@ -46,8 +46,8 @@ The more languages, the better!
 
 Specifically we focus on how to write code with the following attributes:
 
-1. Testable
-2. Maintainable
+1 Testable
+2 Maintainable
 
 We also aim to provide empirical evidence and case studies to back up our claims
 and reasoning.
@@ -57,12 +57,12 @@ the principle, then we will cautiously consider whether we should add it to the
 project. If we do, then we'll clearly label our material to differentiate
 between science and "XP".
 
-# Contributing
+## Contributing
 
 We welcome and encourage contributions!
 
-Please note that this project is released with a [Contributor Code of Conduct].
-By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Code of Conduct][conduct]. By
+participating in this project you agree to abide by its terms.
 
 Open source depends on community involvement. As such we will not tolerate
 violations of the Contributor Code of Conduct. If the owner of this project
@@ -78,15 +78,16 @@ Basically, don't sweat it as long you're treating everyone with civility and
 without harassment or discrimination. Participate in an authentic and active
 way. In doing so, you contribute to the health and longevity of this project.
 
-# License
+## License
 
-The content of this project itself is licensed under the [Attribution-NonCommercial 3.0 United States]
-license, and the underlying source code used to explain, format, or display that
-content is licensed under the [GNU GPLv3] license.
+The content of this project itself is licensed under the
+[Attribution-NonCommercial 3.0 United States][anc3] license, and the underlying
+source code used to explain, format, or display that content is licensed under
+the [GNU GPLv3][gnugpl3] license.
 
 Copyright &copy; 2019 Michael Hargiss
 
-[Attribution-NonCommercial 3.0 United States]: https://creativecommons.org/licenses/by-nc/3.0/us/
-[Contributor Code of Conduct]: https://github.com/mycargus/koala-tea/blob/master/CODE_OF_CONDUCT.md
-[GNU GPLv3]: https://choosealicense.com/licenses/gpl-3.0/
+[anc3]: https://creativecommons.org/licenses/by-nc/3.0/us/
+[conduct]: https://github.com/mycargus/koala-tea/blob/master/CODE_OF_CONDUCT.md
+[gnugpl3]: https://choosealicense.com/licenses/gpl-3.0/
 [logo]: https://github.com/mycargus/koala-tea/blob/master/images/quality.png "This is koala tea"
