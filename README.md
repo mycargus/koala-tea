@@ -46,8 +46,8 @@ The more languages, the better!
 
 Specifically we focus on how to write code with the following attributes:
 
-1 Testable
-2 Maintainable
+-   Testable
+-   Maintainable
 
 We also aim to provide empirical evidence and case studies to back up our claims
 and reasoning.
