@@ -10,6 +10,8 @@ ensure_running_from_root
 
 docker build -t koala-tea/remark docker/remark >/dev/null
 
+echo ':: Linting markdown files'
+
 docker run --rm -t $di -v "$PWD":/lint/input:ro \
   koala-tea/remark \
     "$@"
