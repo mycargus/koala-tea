@@ -3,3 +3,5 @@
 lint_markdown() {
   bin/lint_markdown --frail .
 }
+
+"$@"
