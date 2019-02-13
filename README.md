@@ -55,7 +55,7 @@ and reasoning.
 Above all, we aim to be honest. If we don't have scientific evidence to back up
 the principle, then we will cautiously consider whether we should add it to the
 project. If we do, then we'll clearly label our material to differentiate
-between science and "XP".
+between science and "YMMV".
 
 ## Contributing
 
