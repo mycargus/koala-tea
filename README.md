@@ -8,13 +8,13 @@ A practical code-driven guide to building Quality software
 
 Software development is hard. Perhaps like us you've had thoughts like these:
 
-"I've read about dependency injection but I don't know how to implement it in
-this legacy project codebase."
+> "I've read about dependency injection but I don't know how to implement it in
+> this legacy project codebase."
 
-"What does SOLID code actually look like? Is it a unicorn?"
+> "What does SOLID code actually look like? Is it a unicorn?"
 
-"What are the _proven_ best practices for writing testable code? I'm tired of
-fad approaches."
+> "What are the _proven_ best practices for writing testable code? I'm tired of
+> fad approaches."
 
 Worst of all, if you write poor code then you will inevitably regret it.
 Prohibitive maintenance costs bring projects to a slow crawl. Most programmers
@@ -24,16 +24,8 @@ and efficiently, which only adds to the technical debt.
 Folks may gradually improve with experience, books, and blogs, and if they're
 lucky they'll stumble upon the best ones. Even then, how does one know whether
 their resources espouse scientifically proven methods or yet another anecdotal
-"this worked great for me but your mileage may vary" suggestion?
-
-Sadly, "software engineering" is sometimes a joke amongst other engineering
-professionals. We don't have standard certifications like those of Civil or
-Electrical engineering. Overall we lack data-driven science and don't even
-attempt to discover the best way to produce software. For example, software
-development teams often make technical decisions based on their collective or
-individual experience. As a result, in many companies and throughout the
-profession as a whole, "XP" (eXperience Points) have become the de facto
-authority instead of science.
+"this worked great for me but your mileage may vary" suggestion? Science and
+experimentation ought to be our authoritative guidepost, not experience.
 
 There must be a better way to do software.
 
@@ -92,7 +84,7 @@ The content of this project itself is licensed under the [Attribution-NonCommerc
 license, and the underlying source code used to explain, format, or display that
 content is licensed under the [GNU GPLv3] license.
 
-Copyright 2019 Michael Hargiss
+Copyright &copy; 2019 Michael Hargiss
 
 [Attribution-NonCommercial 3.0 United States]: https://creativecommons.org/licenses/by-nc/3.0/us/
 [Contributor Code of Conduct]: https://github.com/mycargus/koala-tea/blob/master/CONTRIBUTOR_CODE_OF_CONDUCT.md
