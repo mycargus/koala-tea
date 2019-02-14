@@ -61,16 +61,19 @@ between science and "YMMV".
 
 ## Contributing
 
-We welcome and encourage contributions!
+We welcome and encourage contributions! See our [Contributing][contributing] doc
+for development instructions and more info.
+
+### Code of Conduct
 
 Please note that this project is released with a [Code of Conduct][conduct]. By
 participating in this project you agree to abide by its terms.
 
 Open source depends on community involvement. As such we will not tolerate
-violations of the Contributor Code of Conduct. If the owner of this project
-determines a person has violated those terms, then he will take any action he
-deems appropriate, including warning the offender or banning that person from
-all activity in this repository.
+violations of our Code of Conduct. If the owner of this project determines a
+person has violated those terms, then he will take any action he deems
+appropriate, including warning the offender or banning that person from all
+activity in this repository.
 
 If you are subject to or witness unacceptable behavior, or have any other
 concerns, please notify the project team as soon as possible: koala.tea.project
@@ -91,5 +94,6 @@ Copyright &copy; 2019 Michael Hargiss
 
 [anc3]: https://creativecommons.org/licenses/by-nc/3.0/us/
 [conduct]: https://github.com/mycargus/koala-tea/blob/master/CODE_OF_CONDUCT.md
+[contributing]: https://github.com/mycargus/koala-tea/blob/master/CONTRIBUTING.md
 [gnugpl3]: https://choosealicense.com/licenses/gpl-3.0/
 [logo]: https://github.com/mycargus/koala-tea/blob/master/images/quality.png "This is koala tea"
