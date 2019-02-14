@@ -1,10 +1,16 @@
 ---
-remark-lint:
+dockerfile-lint:
+  image: hadolint/hadolint
+  working_dir: /mnt
+  volumes:
+    - ./:/mnt/
+
+markdown-lint:
   build: docker/remark
   volumes:
     - ./:/lint/input
 
-shellcheck:
+shell-lint:
   image: koalaman/shellcheck:v0.6.0
   working_dir: /mnt
   volumes:

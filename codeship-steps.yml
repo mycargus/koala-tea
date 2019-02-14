@@ -2,11 +2,17 @@
 - type: parallel
   steps:
 
-  - service: remark-lint
+  - service: dockerfile-lint
+    name: lint-dockerfiles
+    # TODO: make this flexible, e.g. command: -x bin/* lib/*.bash
+    command: hadolint
+      docker/remark/Dockerfile
+
+  - service: markdown-lint
     name: lint-markdown
     command: --frail .
 
-  - service: shellcheck
+  - service: shell-lint
     name: lint-shell
     # TODO: make this flexible, e.g. command: -x bin/* lib/*.bash
     command: -x
