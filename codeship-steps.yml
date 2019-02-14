@@ -1,10 +1,13 @@
+---
 - type: parallel
   steps:
+
   - service: remark-lint
     name: lint-markdown
     command: --frail .
+
   - service: shellcheck
-    name: lint-bash
+    name: lint-shell
     # TODO: make this flexible, e.g. command: -x bin/* lib/*.bash
     command: -x
       bin/lint_markdown
@@ -13,3 +16,7 @@
       lib/continuous_integration.bash
       scripts/install-hooks.sh
       scripts/pre-commit.sh
+
+  - service: yaml-lint
+    name: lint-yaml
+    command: yamllint .

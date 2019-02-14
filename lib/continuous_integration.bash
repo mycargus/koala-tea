@@ -11,4 +11,8 @@ lint_markdown() {
   bin/lint_markdown --frail .
 }
 
+lint_yaml() {
+  bin/lint_yaml .
+}
+
 "$@"

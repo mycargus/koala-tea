@@ -1,9 +1,17 @@
+---
 remark-lint:
   build: docker/remark
   volumes:
     - ./:/lint/input
+
 shellcheck:
   image: koalaman/shellcheck:v0.6.0
+  working_dir: /mnt
+  volumes:
+    - ./:/mnt/
+
+yaml-lint:
+  image: sdesbure/yamllint
   working_dir: /mnt
   volumes:
     - ./:/mnt/
