@@ -8,7 +8,7 @@
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../lib/binutil.bash" &&
 ensure_running_from_root
 
-echo ':: Linting BASH files'
+echo ':: Linting Shell files'
 
 docker run --rm -t $di -v "$PWD":/mnt:ro -w /mnt \
   koalaman/shellcheck:v0.6.0 \

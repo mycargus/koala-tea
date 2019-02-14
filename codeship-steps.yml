@@ -1,3 +1,15 @@
-- name: lint
-  service: remark-lint
-  command: --frail .
+- type: parallel
+  steps:
+  - service: remark-lint
+    name: lint-markdown
+    command: --frail .
+  - service: shellcheck
+    name: lint-bash
+    # TODO: make this flexible, e.g. command: -x bin/* lib/*.bash
+    command: -x
+      bin/lint_markdown
+      bin/lint_shell
+      lib/binutil.bash
+      lib/continuous_integration.bash
+      scripts/install-hooks.sh
+      scripts/pre-commit.sh

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-lint_bash() {
-  bin/lint_bash -x \
+lint_shell() {
+  bin/lint_shell -x \
     bin/* \
     lib/*.bash \
-    scripts/*
+    scripts/*.sh
 }
 
 lint_markdown() {
