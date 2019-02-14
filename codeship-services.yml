@@ -1,4 +1,4 @@
 remark-lint:
   build: docker/remark
   volumes:
-    - ./:/lint/input:ro
+    - ./:/lint/input
