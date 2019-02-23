@@ -1,4 +1,4 @@
-[![Codeship Status for mycargus/koala-tea](https://app.codeship.com/projects/762fb2a0-1212-0137-f5b8-667257c11eae/status?branch=master)](https://app.codeship.com/projects/327380)
+[![Build Status](https://travis-ci.org/mycargus/koala-tea.svg?branch=master)](https://travis-ci.org/mycargus/koala-tea)
 
 # koala-tea
 
